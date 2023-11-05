@@ -36,7 +36,7 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 + Links to js/questions.js to retrieve user-defined questions for the quiz
 + Links to js/quizApp.js for the quiz to function
 
-<pre lang="html">
+
     <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
         <div class="info-list">
@@ -51,7 +51,7 @@ To host the app on a website (like GitHub Pages) please use the directory struct
             <button class="restart">Continue</button>
         </div>
     </div>
-</pre>
+
 
 #### styles.css
 
