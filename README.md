@@ -35,3 +35,6 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 #### questions.js
 
 #### quizApp.js
+
+
+Note: Codebase provided from https://github.com/martysen/DemoQuizApp for use in TakeHome Assignment #5
