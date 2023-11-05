@@ -37,25 +37,25 @@ index.html
   <link rel="stylesheet" href="css/style.css">
   ```
 + Links to https://kit.fontawesome.com/4a4f4b55b0.js font
-  ```
+  ```html
   <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
   ```
 + Links to js/questions.js to retrieve user-defined questions for the quiz
-  ```
+  ```html
   <script src="js/questions.js" defer></script>
   ```
 + Links to js/quizApp.js for the quiz to function
-  ```
+  ```html
   <script src="js/quizApp.js" defer></script>
   ```
 
 + Start Quiz button
-```
+```html
 <div class="start_btn"><button>Start Quiz</button></div>
 ```
 
 + Info Box div which appears when the user presses the Start Quiz button
-```
+```html
     <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
         <div class="info-list">
@@ -73,7 +73,7 @@ index.html
 ```
 
 + Quiz Box div that pulls data from JS scripts
-```
+```html
     <div class="quiz_box">
         <header>
             <div class="title">Demo Quiz App in JavaScript</div>
@@ -103,7 +103,7 @@ index.html
 ```
 
 + Result Box div that pulls data from JS scripts
-```
+```html
     <div class="result_box">
         <div class="icon">
             <i class="fas fa-crown"></i>
@@ -122,7 +122,7 @@ index.html
 style.css
 -----
 + Import fonts and set default formatting to the body
-```
+```css
 /* importing google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
@@ -138,7 +138,7 @@ body {
 ```
 
 + Import fonts and set default formatting to the body
-```
+```css
 /* importing google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
