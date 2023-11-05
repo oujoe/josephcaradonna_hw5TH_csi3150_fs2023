@@ -19,9 +19,9 @@ The app consists of a 5 question quiz that contains questions relating to HTML, 
 To host the app on a website (like GitHub Pages) please use the directory structure outlined below:
 1. The root directory needs to be a folder that contains the other files. In this example the repository "josephcaradonna_hw5TH_csi3150_fs2023
 " is the default folder.
-  - css folder - contains all CSS files
-  - js folder - contains all JS files
-  - index.html file - must be in root directory to be referenced by GitHub pages
+    1. css folder - contains all CSS files
+    2. js folder - contains all JS files
+    3. index.html file - must be in root directory to be referenced by GitHub pages
 
 ### Codebase Explanation
 
