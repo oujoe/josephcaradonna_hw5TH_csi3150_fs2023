@@ -31,17 +31,26 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 ### Codebase Explanation
 
 #### index.html
++ Links to css/style.css for the main stylesheet
++ Links to https://kit.fontawesome.com/4a4f4b55b0.js font
++ Links to js/questions.js to retrieve user-defined questions for the quiz
++ Links to js/quizApp.js for the quiz to function
+
 <pre lang="html">
-    
-    <link rel="stylesheet" href="css/style.css">
-    <!-- This is my personal font awesome kit code. you will have to add your own after you register with email-->
-    <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
-
-     <!-- Add questions list -->
-    <script src="js/questions.js" defer></script>
-
-    <!-- Main logic of the app -->
-    <script src="js/quizApp.js" defer></script>
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
 </pre>
 
 #### styles.css
