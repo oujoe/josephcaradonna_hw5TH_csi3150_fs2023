@@ -31,7 +31,7 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 ### Codebase Explanation
 
 index.html
-======
+-----
 + Links to css/style.css for the main stylesheet
   ```
   <link rel="stylesheet" href="css/style.css">
@@ -120,13 +120,13 @@ index.html
 ```
 
 styles.css
-======
+-----
 
 questions.js
-======
+-----
 
 quizApp.js
-======
+-----
 
 ---
 Note: Codebase provided from https://github.com/martysen/DemoQuizApp for use in TakeHome Assignment #5
