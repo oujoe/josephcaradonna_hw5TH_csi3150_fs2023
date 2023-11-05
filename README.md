@@ -402,6 +402,148 @@ section .option_list .option .icon {
 }
 ```
 
++ Sets formatting for the footer which appears at the bottom of the quiz
+```html
+        <footer>
+            <div class="total_que">
+                <!-- insert Question Count Number dynamically from JavaScript App logic -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+```
+
+```css
+footer {
+  height: 60px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+}
+
+footer .total_que span {
+  display: flex;
+  user-select: none;
+}
+
+footer .total_que span p {
+  font-weight: 500;
+  padding: 0 5px;
+}
+
+footer .total_que span p:first-child {
+  padding-left: 0px;
+}
+
+footer button {
+  height: 40px;
+  padding: 0 13px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  background: #a020f0;
+  border: 1px solid #a020f0;
+  line-height: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+}
+
+footer button:hover {
+  background: #7803c0;
+}
+
+footer button.show {
+  opacity: 1;
+  pointer-events: auto;
+  tr
+```
+
++ Sets formatting for the result box which appears after the quiz ends
+```css
+.result_box {
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  padding: 25px 30px;
+  width: 450px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate(-50%, -50%) scale(0.9);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.result_box .icon {
+  font-size: 100px;
+  color: #a020f0;
+  margin-bottom: 10px;
+}
+
+.result_box .complete_text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.result_box .score_text span {
+  display: flex;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.result_box .score_text span p {
+  padding: 0 4px;
+  font-weight: 600;
+}
+
+.result_box .buttons {
+  display: flex;
+  margin: 20px 0;
+}
+
+.result_box .buttons button {
+  margin: 0 10px;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #a020f0;
+  transition: all 0.3s ease;
+}
+
+.buttons button.restart {
+  color: #fff;
+  background: #a020f0;
+}
+
+.buttons button.restart:hover {
+  background: #8304d1;
+}
+
+.buttons button.quit {
+  color: #a020f0;
+  background: #fff;
+}
+
+.buttons button.quit:hover {
+  color: #fff;
+  background: #8604d6;
+}
+```
+
 questions.js
 -----
 
