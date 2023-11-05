@@ -33,7 +33,7 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 index.html
 -----
 + Links to css/style.css for the main stylesheet
-  ```
+  ```html
   <link rel="stylesheet" href="css/style.css">
   ```
 + Links to https://kit.fontawesome.com/4a4f4b55b0.js font
