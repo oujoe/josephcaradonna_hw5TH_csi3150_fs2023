@@ -32,7 +32,8 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 
 #### index.html
 <pre lang="html">
-<link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/style.css">
     <!-- This is my personal font awesome kit code. you will have to add your own after you register with email-->
     <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
 
