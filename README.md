@@ -48,6 +48,12 @@ To host the app on a website (like GitHub Pages) please use the directory struct
   <script src="js/quizApp.js" defer></script>
   ```
 
++ Start Quiz button
+```
+<div class="start_btn"><button>Start Quiz</button></div>
+```
+
++ Info Box div which appears when the user presses Start Quiz button
 ```
     <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
