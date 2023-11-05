@@ -30,7 +30,7 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 
 ### Codebase Explanation
 
-### index.html
+index.html
 ======
 + Links to css/style.css for the main stylesheet
   ```
@@ -119,13 +119,13 @@ To host the app on a website (like GitHub Pages) please use the directory struct
     </div>
 ```
 
-### styles.css
+styles.css
 ======
 
-### questions.js
+questions.js
 ======
 
-### quizApp.js
+quizApp.js
 ======
 
 ---
