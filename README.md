@@ -53,7 +53,7 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 <div class="start_btn"><button>Start Quiz</button></div>
 ```
 
-+ Info Box div which appears when the user presses Start Quiz button
++ Info Box div which appears when the user presses the Start Quiz button
 ```
     <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
@@ -67,6 +67,53 @@ To host the app on a website (like GitHub Pages) please use the directory struct
         <div class="buttons">
             <button class="quit">Exit Quiz</button>
             <button class="restart">Continue</button>
+        </div>
+    </div>
+```
+
++ Quiz Box div that pulls data from JS scripts
+```
+    <div class="quiz_box">
+        <header>
+            <div class="title">Demo Quiz App in JavaScript</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Insert questions from ./js/questions.js -->
+            </div>
+            <div class="option_list">
+                <!-- Insert options to questions from ./js/questions.js -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- insert Question Count Number dynamically from JavaScript App logic -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+```
+
++ Result Box div that pulls data from JS scripts
+```
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- insert dynamic user score as Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
         </div>
     </div>
 ```
