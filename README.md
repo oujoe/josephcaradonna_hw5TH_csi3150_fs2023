@@ -10,13 +10,15 @@ The app consists of a 5 question quiz that contains questions relating to HTML, 
 + Rules menu - lists rules of the quiz before the user starts
 + Exit Quiz option - takes user back to home page
 + Continue option - starts quiz for user
-+ Quiz question menu - displays question and multiple choice options along with a 15-second timer
++ Quiz question menu - displays a question and multiple choice options along with a 15-second timer
 + Completion menu - displays after the user answers all questions and gives a score for how many questions the user got right
 + Replay quiz option - restarts the quiz at the first question
 + Quit quiz option - takes user back to home page
 
 ### Directory Structure
-
+To host the app on a website (like GitHub Pages) please use the directory structure outlined below:
+1. The root directory needs to be a folder that contains the other files. In this example the repository "josephcaradonna_hw5TH_csi3150_fs2023
+" is the default folder.
 
 ### Codebase Explanation
 
