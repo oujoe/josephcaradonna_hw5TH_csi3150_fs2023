@@ -32,9 +32,21 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 
 #### index.html
 + Links to css/style.css for the main stylesheet
+  ```
+  <link rel="stylesheet" href="css/style.css">
+  ```
 + Links to https://kit.fontawesome.com/4a4f4b55b0.js font
+  ```
+  <script src="https://kit.fontawesome.com/4a4f4b55b0.js" crossorigin="anonymous"></script>
+  ```
 + Links to js/questions.js to retrieve user-defined questions for the quiz
+  ```
+  <script src="js/questions.js" defer></script>
+  ```
 + Links to js/quizApp.js for the quiz to function
+  ```
+  <script src="js/quizApp.js" defer></script>
+  ```
 
 ```
     <div class="info_box">
