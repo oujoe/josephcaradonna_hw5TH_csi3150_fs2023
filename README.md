@@ -20,8 +20,11 @@ To host the app on a website (like GitHub Pages) please use the directory struct
 1. The root directory needs to be a folder that contains the other files. In this example the repository "josephcaradonna_hw5TH_csi3150_fs2023
 " is the default folder.
     1. css folder - contains all CSS files
-    2. js folder - contains all JS files
-    3. index.html file - must be in root directory to be referenced by GitHub pages
+        - style.css file - contains CSS styling for the website
+    3. js folder - contains all JS files
+        - questions.js file - contains a modifiable list of questions that get referenced in the quizApp.js file
+        - quizApp.js file - contains JavaScript code that controls the quiz app
+    5. index.html file - must be in root directory to be referenced by GitHub pages
 
 ### Codebase Explanation
 
